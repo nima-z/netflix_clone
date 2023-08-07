@@ -1,5 +1,7 @@
-import Image from "next/image";
-import React from "react";
+import AuthBox from "@/components/AuthBox";
+import Input from "@/components/Input";
+import { useState } from "react";
+// ============================================================================================
 
 export default function Auth() {
   return (
@@ -21,10 +23,7 @@ export default function Auth() {
           </svg>
         </nav>
         <div className="flex justify-center">
-          <div className="bg-black bg-opacity-70 px-16 py-16 self-center mt-2 lg:w-2/5 lg:max-w-md rounded-md w-full">
-            <h2 className="text-white text-4xl mb-8 font-semibold">Sign in</h2>
-            <div className="flex flex-col gap-4"></div>
-          </div>
+          <AuthBox />
         </div>
       </div>
     </div>

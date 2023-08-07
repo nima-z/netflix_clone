@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "reactSnippets.settings.prettierEnabled": false,
+  "editor.wordWrap": "off",
+  "debug.console.wordWrap": true
+}
